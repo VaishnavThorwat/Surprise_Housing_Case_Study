@@ -2,7 +2,15 @@
 
 ## 1. Executive Summary
 
-This project aims to analyze and predict housing prices in the city of Surprise, USA, using advanced data analytics and machine learning techniques. Through data cleaning, exploratory analysis, feature engineering, and model building, the study identifies the most significant factors influencing house prices and delivers a predictive solution for future property valuations.
+This project identifies the primary drivers of residential property values in Surprise, USA, using advanced regression techniques. By analyzing 1,460 home sales and 81 features, we developed a model capable of predicting SalePrice with high accuracy.
+
+Key Analytical Findings:
+
+Predictive Power: The final model explains roughly 90% of the variance in housing prices on the training set, with Lasso regression providing the most reliable feature selection.
+
+Top Value Drivers: Property value is most sensitive to Overall Quality, Above Grade Living Area (GrLivArea), and Modernity (YearBuilt/YearRemodAdd).
+
+Market Skew: Initial analysis revealed a significant positive skew in prices (Skewness: 1.88), which was successfully corrected using a Log Transformation to normalize the target variable.
 
 ## 2. Project Overview
 
